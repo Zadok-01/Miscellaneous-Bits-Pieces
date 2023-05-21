@@ -22,3 +22,17 @@ work, but the function it uses cannot be imported from the module.  Also,
 it does it using the three integer arguments after they have separated from the 
 date string.  That function also relies on other functions and constants in the 
 module.
+
+## aaa
+### (list_one_based_slices.py)
+Have you wondered whether it is possible to have one-based lists in Python 
+(lists whose indices start at one instead onf the usual zero)?
+
+It is unlikely that anyone would seriously need this, so consider this an 
+intellectual exercise exploring the feasibility of such a thing.
+
+This class produces a list with support for one-based indices.  These work as 
+individual indices and as part of slices.  Zero is considered an invalid index.  
+Negative indices work from the end (right hand side) of the list in the 
+conventional manner.
+
