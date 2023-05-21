@@ -11,7 +11,7 @@ by successively adding the step value at each cycle of the loop; if you do any
 rounding errors will accumulate.
 
 ## Date String Validation
-### (is_valid_date.py)
+### (validate_date.py)
 Have you ever wanted to simply validate a date string?  Strangely, the datetime 
 module does not export such a function.  Here is a function that you could use.  
 If need be, change the default format string to what is likely to occur most 
